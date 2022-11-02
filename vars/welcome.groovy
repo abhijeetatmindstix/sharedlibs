@@ -13,7 +13,7 @@ def mul(x,y)
 }
 
 def checkout(){
-  sh "git clone -b 'hello-world-spring-boot' 'https://github.com/SumeetBandgar/Java.git'"
+  git branch: 'hello-world-spring-boot', url: 'https://github.com/SumeetBandgar/Java.git'
 }
 
 def build(){
