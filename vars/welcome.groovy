@@ -13,9 +13,9 @@ def mul(x,y)
 }
 
 def checkout(){
-  git clone -b "hello-world-spring-boot" "https://github.com/SumeetBandgar/Java.git"
+  sh "git clone -b 'hello-world-spring-boot' 'https://github.com/SumeetBandgar/Java.git'"
 }
 
 def build(){
- mvn clean install
+ sh "mvn clean install"
 }
