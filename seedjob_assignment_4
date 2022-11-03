@@ -33,12 +33,12 @@ pipelineJob('Project-A/A1/jenkins-pipeline-job') {
               credentialsId('')
               name('')
               refspec('')
-              url('https://github.com/SumeetBandgar/Jenkins.git')
+              url('https://github.com/abhijeetatmindstix/sharedlibs.git')
             }
           }
           branches {
             branchSpec {
-              name('*/shared-library-assign3')
+              name('*/assignment_no_3')
             }
           }
           browser {
