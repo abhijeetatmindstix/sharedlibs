@@ -49,7 +49,7 @@ pipelineJob('Project-A/A1/jenkins-pipeline-job') {
           gitTool('')
         }
       }
-      scriptPath('Jenkinsfile')
+      scriptPath('shared_library_assignment_3')
       lightweight(true)
     }
   }
@@ -65,12 +65,12 @@ pipelineJob('Project-A/A2/jenkins-pipeline-job') {
               credentialsId('')
               name('')
               refspec('')
-              url('https://github.com/SumeetBandgar/Jenkins.git')
+              url('https://github.com/abhijeetatmindstix/sharedlibs.git')
             }
           }
           branches {
             branchSpec {
-              name('*/shared-library-assign3')
+              name('*/assignment_no_3')
             }
           }
           browser {
@@ -81,7 +81,7 @@ pipelineJob('Project-A/A2/jenkins-pipeline-job') {
           gitTool('')
         }
       }
-      scriptPath('Jenkinsfile')
+      scriptPath('shared_library_assignment_3')
       lightweight(true)
     }
   }
@@ -97,12 +97,12 @@ pipelineJob('Project-B/jenkins-pipeline-job') {
               credentialsId('')
               name('')
               refspec('')
-              url('https://github.com/SumeetBandgar/Jenkins.git')
+              url('https://github.com/abhijeetatmindstix/sharedlibs.git')
             }
           }
           branches {
             branchSpec {
-              name('*/shared-library-assign3')
+              name('*/assignment_no_3')
             }
           }
           browser {
@@ -113,7 +113,7 @@ pipelineJob('Project-B/jenkins-pipeline-job') {
           gitTool('')
         }
       }
-      scriptPath('Jenkinsfile')
+      scriptPath('shared_library_assignment_3')
       lightweight(true)
     }
   }
@@ -129,7 +129,7 @@ pipelineJob('Project-C/C1/C-1.1/jenkins-pipeline-job') {
               credentialsId('')
               name('')
               refspec('')
-              url('https://github.com/SumeetBandgar/Jenkins.git')
+              url('https://github.com/abhijeetatmindstix/sharedlibs.git')
             }
           }
           branches {
@@ -145,7 +145,7 @@ pipelineJob('Project-C/C1/C-1.1/jenkins-pipeline-job') {
           gitTool('')
         }
       }
-      scriptPath('Jenkinsfile')
+      scriptPath('shared_library_assignment_3')
       lightweight(true)
     }
   }
@@ -161,12 +161,12 @@ pipelineJob('Project-C/C2/jenkins-pipeline-job') {
               credentialsId('')
               name('')
               refspec('')
-              url('https://github.com/SumeetBandgar/Jenkins.git')
+              url('https://github.com/abhijeetatmindstix/sharedlibs.git')
             }
           }
           branches {
             branchSpec {
-              name('*/shared-library-assign3')
+              name('*/assignment_no_3')
             }
           }
           browser {
@@ -177,7 +177,7 @@ pipelineJob('Project-C/C2/jenkins-pipeline-job') {
           gitTool('')
         }
       }
-      scriptPath('Jenkinsfile')
+      scriptPath('shared_library_assignment_3')
       lightweight(true)
     }
   }
